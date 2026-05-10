@@ -1,10 +1,10 @@
-# 🦠 COVID-19 Data Cleaning Project
+ COVID-19 Data Cleaning Project
 
-> My first real-world Data Analysis project | Python · Pandas
+> My first real Data Analysis project | Python · Pandas
 
 ---
 
-## 👋 What is this project?
+ What is this project?
 
 This project takes a **raw messy COVID-19 CSV file** and cleans it step by step using Python — just like a real Data Analyst does at a company.
 
@@ -16,7 +16,7 @@ This project takes a **raw messy COVID-19 CSV file** and cleans it step by step 
 |---|---|
 | `covid19_raw.csv` | Original messy data — with all the problems |
 | `covid19_cleaned.csv` | Final clean data — after fixing everything |
-| `covid19_final_commented.py` | Python script — every line has a comment explaining what it does |
+| `file.py` | Python script — every line has a comment explaining what it does |
 | `README.md` | This file — explains the whole project |
 
 ---
@@ -31,8 +31,6 @@ This project takes a **raw messy COVID-19 CSV file** and cleans it step by step 
 | Inconsistent names | `india`, `INDIA`, `India` — all 3 in same file |
 
 ---
-
-## ✅ How I fixed each problem
 
 **Step 1 — Fixed country name spelling**
 ```python
@@ -78,7 +76,7 @@ df["recovery_rate"]  = (df["recovered"] / df["confirmed"].replace(0, np.nan) * 1
 
 ---
 
-## 📊 Result after cleaning
+## Result after cleaning
 
 | | Before | After |
 |---|---|---|
@@ -89,7 +87,7 @@ df["recovery_rate"]  = (df["recovered"] / df["confirmed"].replace(0, np.nan) * 1
 
 ---
 
-## 🛠️ Tools used
+##  Tools used
 
 | Tool | Why I used it |
 |---|---|
@@ -99,7 +97,7 @@ df["recovery_rate"]  = (df["recovered"] / df["confirmed"].replace(0, np.nan) * 1
 
 ---
 
-## 💡 Biggest lesson
+##  Biggest lesson
 
 > Real data is never clean.
 > The actual skill of a Data Analyst is finding hidden problems in raw data and fixing them.
@@ -107,10 +105,10 @@ df["recovery_rate"]  = (df["recovered"] / df["confirmed"].replace(0, np.nan) * 1
 
 ---
 
-## 👤 About me
+##  About me
 
 **Yash**
 Aspiring Data Analyst | Python · Pandas · NumPy · Matplotlib
 📍 Jamnagar, Gujarat, India
-🔗 GitHub: [your GitHub link here]
-🔗 LinkedIn: [your LinkedIn link here]
+🔗 GitHub: www.linkedin.com/in/yash-vyas
+🔗 LinkedIn:https://www.linkedin.com/in/yash-vyas
