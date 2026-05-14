@@ -10,7 +10,7 @@ This project takes a **raw messy COVID-19 CSV file** and cleans it step by step 
 
 ---
 
-## 🗂️ Files in this project
+##  Files in this project
 
 | File | What it is |
 |---|---|
@@ -21,7 +21,7 @@ This project takes a **raw messy COVID-19 CSV file** and cleans it step by step 
 
 ---
 
-## ❌ Problems found in the raw data
+##  Problems found in the raw data
 
 | Problem | Example |
 |---|---|
