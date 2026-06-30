@@ -1,4 +1,4 @@
- COVID-19 Data Cleaning Project
+ COVID-19 Data Cleaning Project 
 
 > My first real Data Analysis project | Python · Pandas
 
@@ -105,10 +105,5 @@ df["recovery_rate"]  = (df["recovered"] / df["confirmed"].replace(0, np.nan) * 1
 
 ---
 
-##  About me
 
-**Yash**
-Aspiring Data Analyst | Python · Pandas · NumPy · Matplotlib
-📍 Jamnagar, Gujarat, India
-🔗 GitHub: www.linkedin.com/in/yash-vyas
-🔗 LinkedIn:https://www.linkedin.com/in/yash-vyas
+
